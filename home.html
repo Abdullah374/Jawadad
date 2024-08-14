@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+    <title>Muy Feliz</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html"><img class="brand-logo"src="logo.png" height="100"></a>
+          <button
+            data-mdb-collapse-init
+            class="navbar-toggler"
+            type="button"
+            data-mdb-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Guide</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled"
+                  >Disabled</a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="jumbotron-custom">
+        <div class="one">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="pool"src="poolasli.jpg"  alt="Townhouses and Skyscrapers"/>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <br>
+                            <br>
+                            <br>
+                            <!-- <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                                <label class="form-check-label" for="flexCheckDefault">Container</label>
+                            </div>
+            
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked/>
+                                <label class="form-check-label" for="flexCheckChecked">Infinity Pool</label>
+                            </div>
+            
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2" />
+                                <label class="form-check-label" for="flexCheckDefault2">OverFlow</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2" />
+                              <label class="form-check-label" for="flexCheckDefault2">Skimmer</label>
+                          </div>
+                         -->
+                        <div class="form-group">
+                          <label for="exampleFormControlSelect1">Styles</label>
+                          <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Container</option>
+                            <option>Infinity Pool</option>
+                            <option>OverFlow</option>
+                            <option>Skimmer</option>
+                          </select>
+                        </div>
+                      </div>
+                        
+                        <div class="col-md-3">
+                            <!-- <br><br><br>
+                            <div class="form-outline" data-mdb-input-init>
+                                <label class="form-label" for="colorPicker">Choose a color</label>
+                                <input type="color" id="colorPicker" class="form-control" />
+                                
+                            </div> -->
+                            <div class="form-group finishes">
+                              <label for="exampleFormControlSelect1">Finishes</label>
+                              <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Glitter Fibreglass</option>
+                                <option>Fibreglass</option>
+                                <option>Glossy Mosaic</option>
+                                <option>Matte Mosaic</option>
+                                <option>Custom</option>
+                                <option>Other</option>
+                              </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                          <br><br><br>
+                          <div class="form dimen" data-mdb-input-init>
+                              <label class="form-label" for="form12">Length</label>
+                              <input type="text" id="formtxt" class="form-control" />
+                              
+                          </div>
+                          <div class="form dimen" data-mdb-input-init>
+                              <label class="form-label" for="form13">Width</label>
+                              <input type="text" id="formtxt" class="form-control" />
+                              
+                          </div>
+                          <div class="form dimen" data-mdb-input-init>
+                              <label class="form-label" for="form14">Depth</label>
+                              <input type="text" id="formtxt" class="form-control" />
+                              
+                          </div>
+                      </div>
+                        <div class="col-md-3">
+                          <br><br><br>
+                          <div class="form-outline" data-mdb-input-init>
+                              <label class="form-label" for="colorPicker">Choose a color</label>
+                              <input type="color" id="colorPicker" class="form-control" />
+                              
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+                <div class="d-flex justify-content-end">
+                   <span class="two"style="padding-right: 20px;"><strong> Contact Us:</strong> </span>   
+                   <div class="buttons"><a class="btn text-white" data-mdb-ripple-init style="background-color: #ac2bac;" href="https://www.instagram.com/abdullah.ibrahim__?igsh=cDY2amo1d2FwY3h3" role="button" >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a class="btn text-white" data-mdb-ripple-init style="background-color: #0082ca;" href="https://www.linkedin.com/in/abdullah-ibrahim-157522269?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BgapEP5yHSQeJ2ZtT0x8SCw%3D%3D" role="button">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                    
+                  <a class="btn text-white" data-mdb-ripple-init style="background-color: #333333;" href="https://github.com/Abdullah374" role="button">
+                    <i class="fab fa-github"></i>
+                    </a></div>        
+                    
+                </div></div>
+          
+      </div>
+      
+            
+        
+       
+          
+      
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

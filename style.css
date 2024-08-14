@@ -1,0 +1,87 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: large;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #95c2f1;
+}
+
+.one{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-item{
+    padding-left: 200px;
+    font-size: larger;
+   
+}
+
+.pool{
+    
+    height: 100%;
+    width: 100%;
+    border-radius: 7%;
+    
+}
+
+
+
+.form-check{
+    font-size: larger;
+    margin-top: 20px;
+}
+
+#colorPicker{
+    width: 20%;
+}
+
+#formtxt{
+    width: 50%;
+}
+
+
+#id{
+    padding-top: 50%;
+}
+
+.btn{
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+.navbar{
+    background-image: url('jj.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      border-bottom-left-radius: 0.5rem;
+      border-bottom-right-radius: 0.5rem;
+}
+
+.two{
+    height: 100;
+    font-size: 1.5rem;
+}
+.jumbotron-custom {
+    background-color: #95c2f1; /* Blue background color */
+    color: black;
+    background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-abstract-white-geometric-background-mosaic-tile-picture-image_1166145.jpg);     padding: 7rem 1rem; /* Adjust padding as needed */
+    border-radius: 0.3rem; /* Optional: adds rounded corners */
+
+  }
+
+.finishes{
+    margin-top: 57%;
+}
+
+.dimen{
+    justify-content: center;
+    padding-left: 10px;
+    width: 150%;
+}
